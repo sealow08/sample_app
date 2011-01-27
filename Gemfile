@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.0.0'
+gem 'rails', '3.0.3'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -36,4 +36,8 @@ group :test do
   gem 'rspec', '2.0.0.beta.18'
   gem 'spork', '0.8.4'
   gem 'factory_girl_rails', '1.0'
+  gem 'autotest', '4.3.2'
+  gem 'autotest-fsevent', '0.2.2'
+  gem 'autotest-growl', '0.2.4'
+  gem 'autotest-rails-pure', '4.1.2'
 end
