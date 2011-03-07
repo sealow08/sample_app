@@ -19,6 +19,7 @@ class UsersController < ApplicationController
       @user.email = params[:user][:email]
       if @user.save
         # Handle a successful save.
+        sign_in @user
         flash[:success] = "Welcome to the Sample App!"
         redirect_to @user
       else
